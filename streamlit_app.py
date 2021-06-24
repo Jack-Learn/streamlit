@@ -42,4 +42,8 @@ option = st.sidebar.selectbox(  # sidebar 顯示於邊條
     ['狗', '貓', '鸚鵡', '天竺鼠'])
 
 # 不打 st.write()也能正常顯示
-'你的答案：', option
+st.sidebar.write('你的答案：', option)
+
+left_column, right_column = st.beta_columns(2)
+left_column.write("這是左邊欄位。")
+right_column.write("這是右邊欄位。")
