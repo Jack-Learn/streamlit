@@ -1,3 +1,6 @@
+# 架設網站
+# streamlit  firestore_streamlit_app.py
+
 # 引用必要套件
 import firebase_admin
 from firebase_admin import credentials
