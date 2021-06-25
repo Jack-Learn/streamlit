@@ -47,3 +47,5 @@ st.sidebar.write('你的答案：', option)
 left_column, right_column = st.beta_columns(2)
 left_column.write("這是左邊欄位。")
 right_column.write("這是右邊欄位。")
+
+input  = st.text_input('輸入框', '輸入')
